@@ -1,16 +1,18 @@
 from setuptools import setup, find_packages
 
 setup(
-    name='data_ingestion',  # The package name
+    name='data_pipeline_project',  # Name of the overall project, not just one module
     version='0.1.0',
     packages=find_packages(exclude=['tests*']),
     license='MIT',
-    description='A data ingestion module for reading CSVs and querying databases.',
+    description='A modular data pipeline project for Maji Ndogo farm data processing.',
     long_description=open('README.md', encoding='utf-8').read(),
-    long_description_content_type='text/markdown',  # important for PyPI later
+    long_description_content_type='text/markdown',
     install_requires=[
         'pandas',
-        'sqlalchemy'
+        'numpy',
+        'sqlalchemy',
+        'requests'  # optional if you later fetch data dynamically
     ],
     url='https://github.com/mohamed-algazar',
     author='Mo Ali',

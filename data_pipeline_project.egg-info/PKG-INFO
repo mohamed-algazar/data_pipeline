@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: data_pipeline_project
+Version: 0.1.0
+Summary: A modular data pipeline project for Maji Ndogo farm data processing.
+Home-page: https://github.com/mohamed-algazar
+Author: Mo Ali
+Author-email: eng.mohamedelgazar1@gmail.com
+License: MIT
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+Requires-Dist: pandas
+Requires-Dist: numpy
+Requires-Dist: sqlalchemy
+Requires-Dist: requests

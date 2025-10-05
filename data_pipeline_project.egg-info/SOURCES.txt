@@ -1,0 +1,14 @@
+README.md
+setup.py
+data_ingestion/__init__.py
+data_ingestion/data_ingesation.py
+data_pipeline_project.egg-info/PKG-INFO
+data_pipeline_project.egg-info/SOURCES.txt
+data_pipeline_project.egg-info/dependency_links.txt
+data_pipeline_project.egg-info/requires.txt
+data_pipeline_project.egg-info/top_level.txt
+data_processor/__init__.py
+data_processor/field_data_processor.py
+tests/test.py
+weather_data_processor/__init__.py
+weather_data_processor/weather_data_processor.py
